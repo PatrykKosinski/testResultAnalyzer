@@ -19,7 +19,7 @@ public class TestClass2 {
     @Test
     public void test3(){
         System.out.println(this.getClass().getName() + "test nr 3");
-        Assert.fail();
+
 
 
 
@@ -28,7 +28,7 @@ public class TestClass2 {
     @Test
     public void test4(){
         System.out.println(this.getClass().getName() + "test nr 4");
-        Assert.fail();
+
 
     }
 
