@@ -17,19 +17,18 @@ public class TestClass1 {
     @Test
     public void test3(){
         System.out.println(this.getClass().getName() + "test nr 3");
-        Assert.fail();
+
     }
 
     @Test
-    public void test4(){
+    public void test4() {
         System.out.println(this.getClass().getName() + "test nr 4");
-        Assert.fail();
     }
 
     @Test
     public void test5(){
         System.out.println(this.getClass().getName() + "test nr 5");
-        Assert.fail();
+
     }
 
 

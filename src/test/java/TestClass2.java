@@ -10,7 +10,7 @@ public class TestClass2 {
 
     @Test
     public void test2(){
-        System.out.println(this.getClass().getName() + "test nr 2");Assert.fail();
+        System.out.println(this.getClass().getName() + "test nr 2");
     }
 
     @Test
@@ -23,7 +23,6 @@ public class TestClass2 {
     @Test
     public void test4(){
         System.out.println(this.getClass().getName() + "test nr 4");
-        Assert.fail();
     }
 
     @Test
