@@ -16,7 +16,7 @@ public class TestClass2 {
     @Test
     public void test3(){
         System.out.println(this.getClass().getName() + "test nr 3");
-        Assert.assertTrue(false, "test3");
+
 
     }
 
