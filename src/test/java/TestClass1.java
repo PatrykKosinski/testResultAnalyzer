@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestClass1 {
@@ -5,6 +6,7 @@ public class TestClass1 {
     @Test
     public void test1(){
         System.out.println(this.getClass().getName() + "test nr 1");
+        Assert.assertTrue(false, "sadasda");
     }
 
     @Test
