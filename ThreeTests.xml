@@ -13,10 +13,4 @@
             </class>
         </classes>
     </test>
-    <test name="test3">
-        <classes>
-            <class name="TestClass3">
-            </class>
-        </classes>
-    </test>
 </suite>
