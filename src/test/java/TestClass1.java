@@ -1,11 +1,14 @@
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TestClass1 {
 
+    @Parameters("username")
     @Test
-    public void test1(){
+    public void test1(String name){
         System.out.println(this.getClass().getName() + "test nr 1");
+        System.out.println(name);
     }
 
     @Test
